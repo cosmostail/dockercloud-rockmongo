@@ -1,7 +1,7 @@
 version: '2'
 services:
   rockmongo:
-      image: "cosmostail/rockmongo:latest"
+      image: "cosmostail/dockercloud-rockmongo:latest"
       links:
         - db:mongodb-host
       restart: always
