@@ -26,3 +26,5 @@ The Original Rockmongo repository: https://github.com/iwind/rockmongo
 
 
 
+![alt tag](https://github.com/cosmostail/dockercloud-rockmongo/blob/master/images/step1.png)
+![alt tag](https://github.com/cosmostail/dockercloud-rockmongo/blob/master/images/step2.png)
