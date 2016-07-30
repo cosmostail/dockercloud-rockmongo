@@ -1,0 +1,22 @@
+version: '2'
+services:
+  rockmongo:
+      image: "cosmostail/rockmongo:latest"
+      links:
+        - db:mongodb-host
+      restart: always
+      ports:
+        - "80:80"
+      environment:
+        - 'MONGO_CONF=[{"mongo_name":"Test DB","mongo_host":"test-db","mongo_port":"27017","mongo_auth":"true"}]'
+
+  db:
+      image: "mongo:2.6.12"
+      ports:
+          - "27017:27017"
+      volumes:
+          - test-db:/data/db
+      restart: always
+
+volumes:
+  test-db:
