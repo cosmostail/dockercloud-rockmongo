@@ -1,9 +1,3 @@
-# "ported" by Adam Miller <maxamillion@fedoraproject.org> from
-#   https://github.com/fedora-cloud/Fedora-Dockerfiles
-#
-# Originally written for Fedora-Dockerfiles by
-#   "Scott Collier" <scollier@redhat.com>
-
 FROM ubuntu:14.04
 MAINTAINER Scott Wang <scott@wt83.com>
 
